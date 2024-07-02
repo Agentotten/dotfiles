@@ -1,50 +1,83 @@
 {
   "position": "bottom",
-  "modules-left": [ "hyprland/workspaces" ],
-  "modules-center": [ "clock" ],
-  "modules-right": [ "cpu", "memory", "backlight", "wireplumber", "battery", "network", "tray" ],
-
+  "modules-left": [
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "cpu",
+    "memory",
+    "backlight",
+    "wireplumber",
+    "battery",
+    "network",
+    "tray"
+  ],
   "clock": {
     "on-click": "",
     "format": "{:%d-%m-%Y | %H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
-
   "cpu": {
     "interval": 1,
-    "format": " {usage}%",
+    "format": " {usage}%"
   },
-
   "memory": {
     "interval": 1,
     "format": " {percentage}%",
     "tooltip-format": "Memory: {used} GiB / {total} GiB\nSwap: {swapUsed:0.2f} GiB / {swapTotal:0.2f} GiB"
   },
-
   "backlight": {
     "format": " {percent}%"
   },
-
   "wireplumber": {
     "format": "󰓃 {volume}%",
     "format-muted": "󰓄 {volume}%"
   },
-
   "battery": {
     "interval": 2,
     "format": "{icon} {capacity}%",
     "format-icons": {
-      "default": [ "󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹" ],
-      "charging": [ "󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅" ]
+      "default": [
+        "󰂎",
+        "󰁺",
+        "󰁻",
+        "󰁼",
+        "󰁽",
+        "󰁾",
+        "󰁿",
+        "󰂀",
+        "󰂁",
+        "󰂂",
+        "󰁹"
+      ],
+      "charging": [
+        "󰢟",
+        "󰢜",
+        "󰂆",
+        "󰂇",
+        "󰂈",
+        "󰢝",
+        "󰂉",
+        "󰢞",
+        "󰂊",
+        "󰂋",
+        "󰂅"
+      ]
     }
   },
-
   "network": {
     "format-wifi": "{icon} {essid}",
     "format-disconnected": "󱛂 Disconnected",
-    "format-icons": [ "󰤟", "󰤢", "󰤥", "󰤨" ]
+    "format-icons": [
+      "󰤟",
+      "󰤢",
+      "󰤥",
+      "󰤨"
+    ]
   },
-
   "tray": {
     "spacing": 10,
     "icon-size": 18

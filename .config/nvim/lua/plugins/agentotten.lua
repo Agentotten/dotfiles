@@ -11,6 +11,8 @@ return {
     opts = {
       servers = {
         clangd = { mason = false },
+        jsonls = {},
+        cssls = {},
       },
     },
   },
@@ -22,8 +24,11 @@ return {
         "make",
         "c",
         "cpp",
+        "css",
         "diff",
         "glsl",
+        "json",
+        "markdown",
         "xml",
       },
     },
