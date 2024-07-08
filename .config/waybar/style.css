@@ -36,6 +36,11 @@ tooltip label {
   text-shadow: #d4be98;
 }
 
+#window {
+  color: #d4be98;
+  padding-left: 1em;
+}
+
 /* Modules Center */
 #clock {
   color: #d4be98;
