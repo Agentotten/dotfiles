@@ -4,10 +4,11 @@
 
 ### About
 
-My own dotfiles that I share between my laptop and desktop.
+Dotfiles that I use for my laptop, specifically the Lenovo Slim 7i Pro X.
 
 ### Essential Package Dependencies
 
+* elogind (systemd)
 * hyprcursor
 * hypridle
 * hyprland
